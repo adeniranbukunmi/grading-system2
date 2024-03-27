@@ -1,20 +1,20 @@
-var song = "Audio/eyi_kii_se_opin.mp3"
+var song = "audio/eyi_kii_se_opin.mp3"
 var songToPlay = new Audio(song)
-var  song =  "Audio/Johnny_Drille_-_For_You.mp3"
+var  song2 =  "audio/Johnny_Drille_-_For_You.mp3"
 var  song2ToPlay =new Audio(song)
 
-var  song =  "Audio/song1.mp3"
+var  song3 =  "audio/song1.mp3"
 var  song3ToPlay =new Audio(song)
 
-var  song =  "Audio/Kcee_-_Ft_Teni_Skiibii_Ebelebe.mp3"
+var  song4 =  "audio/Kcee_-_Ft_Teni_Skiibii_Ebelebe.mp3"
 var  song4ToPlay =new Audio(song)
 
-var  song =  "Audio/stand up.mp3"
+var  song5 =  "audio/stand up.mp3"
 var  song5ToPlay =new Audio(song)
 
 
 
-function calcu (){
+function calculate (){
     if (num.value == "") {
         alert("Please Fill In The Required Space")}
     else if (num.value >=0 && num.value <= 40){
