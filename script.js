@@ -17,7 +17,7 @@ var  song5ToPlay =new Audio(song)
 function calculate (){
     if (num.value == "") {
         alert("Please Fill In The Required Space")}
-    else if (num.value >=0 && num.value <= 40){
+    else if (num.value >=0 && num.value < 40){
             showData.innerHTML="F-FAIL 😒"
             songToPlay.play()
             song2ToPlay.pause()
@@ -27,7 +27,7 @@ function calculate (){
 
 
         }
-    else  if(num.value >=  40 && num.value <=45){
+    else  if(num.value >=  40 && num.value < 45){
             showData.innerHTML="E- Pass 😂"
             songToPlay.play()
             song2ToPlay.pause()
@@ -45,7 +45,7 @@ function calculate (){
             song5ToPlay.pause()
 
         }
-    else  if(num.value >= 50 && num.value <=60){
+    else  if(num.value >= 50 && num.value < 60){
             showData.innerHTML="C- Credit 👍"
             
             song3ToPlay.play()
@@ -56,7 +56,7 @@ function calculate (){
 
 
         }
-    else  if(num.value >= 60 && num.value <=65){
+    else  if(num.value >= 60 && num.value < 65){
         showData.innerHTML="B3 -Good 😍"
         song4ToPlay.play()
         song3ToPlay.pause()
@@ -65,7 +65,7 @@ function calculate (){
         song5ToPlay.pause()
 
     }
-    else  if(num.value >= 65 && num.value <=70){
+    else  if(num.value >= 65 && num.value < 70){
         showData.innerHTML="B2 Very-Good 😍 "
         song4ToPlay.play()
         song3ToPlay.pause()
